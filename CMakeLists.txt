@@ -3,5 +3,5 @@ project(Visitor)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES main.cpp type_list.h visitor.h visitable.h client.h)
+set(SOURCE_FILES main.cpp visitor.h visitable.h client.h)
 add_executable(Visitor ${SOURCE_FILES})
